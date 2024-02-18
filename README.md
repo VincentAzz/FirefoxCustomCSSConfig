@@ -15,12 +15,16 @@
 ![alt text](01.png)
 ![alt text](02.png)
 
+<br>
+
 ## 🏷️ 前置版本
 Firefox 120+ 
 
 或除Floorp外任何基于Firefox 120+的浏览器
 
 (Floorp已经使用了内建样式的userChrome，会导致样式混乱冲突)
+
+<br>
 
 ## 🛠️ 所需工具
 - 插件
@@ -34,6 +38,8 @@ Firefox 120+
 - 其他
   - 文本编辑器，例如VSCode，方便你用来改动CSS样式，如果你只想使用记事本也没关系
 
+<br>
+
 ## 📦 包含哪些内容
 ### 对EdgeFrFox Theme的改动
 chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行了一些改动
@@ -44,6 +50,8 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 
 ### Sidebery的样式配置项
   - sidebery.css是Sidebery的CSS样式配置项
+
+<br>
 
 ## 📖 如何使用
 1. 安装上述所需工具中你想要的插件、工具和主题。
@@ -56,7 +64,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 - 禁用配置项: 点击切换按钮，将配置项切换到false，或点击删除按钮，删除配置项
 - 如果你想了解每个配置项的详细含义，或启用本主题中未使用的某些配置项，请参考 [EdgeFrFox UserChrome Theme Tweaks](https://github.com/bmFtZQ/edge-frfox?tab=readme-ov-file#tweaks)
 
-  |配置项|布尔值|用途|
+  |需启用的配置项|布尔值|用途|
   |-|-|-|
   |uc.tweak.disable-drag-space	           |true|去除隐藏横向标签页时顶部的冗余空间|
   |uc.tweak.floating-tabs                  |true|横向标签页的浮动样式|
@@ -70,7 +78,9 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 7. 用文本编辑器打开sidebery.css，复制全部内容到垂直标签页Sidebery的设置-样式编辑器中右侧的文本框中
 ![alt text](image-1.png)
 
-### 现在，主题配置已经完成，效果应该和截图中的基本一致
+### 🎉 现在，主题配置已经完成，效果应该和截图中的基本一致
+<br>
+<br>
 
 ## ⚗️ 样式修改
 如果你不喜欢我的主题样式，或者喜欢折腾，你也可以动手修改。下面是一些可能涉及到的样式表的位置
@@ -108,6 +118,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
   }
   ```
 
+<br>
 
 ## 🌎 有用的链接
 [EdgeFrFox UserChrome Theme](https://github.com/bmFtZQ/edge-frfox/)
