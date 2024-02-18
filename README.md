@@ -132,5 +132,6 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 [Browser Toolbox](https://www.reddit.com/r/FirefoxCSS/s-store.github.io/)：Firefox浏览器的官方调试工具，可以方便的探测浏览器自身的UI元素和CSS样式
 
 ---
+<br>
 
 [![Page Views Count](https://badges.toozhao.com/badges/01HPXGQP669GNMEDM0XV87B2TX/green.svg)](https://badges.toozhao.com/stats/01HPXGQP669GNMEDM0XV87B2TX "Get your own page views count badge on badges.toozhao.com")
