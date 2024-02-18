@@ -8,7 +8,7 @@
 ## 🤔 这是什么
 厌倦了Firefox的传统主题和默认界面？
 
-这是一个使用[userChrome.css](https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization)对Firefox进行高度自定义的主题
+这是一个使用[userChrome.css](https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization)对 '[稳定版Firefox](https://www.mozilla.org/en-US/firefox/new/)' 进行高度自定义的主题
 
 基于 [EdgeFrFox UserChrome Theme](https://github.com/bmFtZQ/edge-frfox/) 和 [Sidebery](https://addons.mozilla.org/firefox/addon/sidebery/) 进行修改
 
@@ -23,11 +23,21 @@
 <br>
 
 ## 🏷️ 前置版本
-Firefox 120+ 
 
-或 除 Floorp 外任何基于 Firefox 120+ 的浏览器
+仅在Windows下经过测试
 
-(Floorp已经使用了内建样式的userChrome，会导致样式混乱冲突)
+Firefox 120-122 稳定版
+
+或 除 Floorp 外任何基于 Firefox 120-122 的浏览器 - Floorp使用的内建样式的userChrome会导致冲突混乱
+
+<br>
+
+🚨 上述版本在Linux和macOS下未经测试，但理论通用
+
+🚨 目前 Firefox 123+ 的 Beta/Nightly 下可能会导致意想不到的问题，请谨慎使用
+- 已知问题：隐藏水平标签页时，窗口控制按钮 (最小化 最大化 关闭) 可能会失效
+
+
 
 <br>
 
@@ -91,7 +101,14 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 ![alt text](image-1.png)
 
 ### 🎉 现在，主题配置已经完成，效果应该和截图中的基本一致
+
 <br>
+
+## 📖 如何禁用
+1. 打开Firefox配置文件夹
+2. 删掉配置文件夹中的chrome目录和user.js
+3. 重启Firefox即可还原
+
 <br>
 
 ## ⚗️ 样式修改
@@ -141,9 +158,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 
 [Reddit r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/s-store.github.io/)：Reddit上的FirefoxCSS论坛
 
-[Browser Toolbox](https://www.reddit.com/r/FirefoxCSS/s-store.github.io/)：Firefox浏览器的官方调试工具，可以方便的探测浏览器自身的UI元素和CSS样式
+[Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html)：Firefox浏览器的官方调试工具，可以方便的探测浏览器自身的UI元素和CSS样式
 
 ---
 <br>
-
-<!-- [![页面访问量](https://badges.toozhao.com/badges/01HPXGQP669GNMEDM0XV87B2TX/green.svg)](https://badges.toozhao.com/stats/01HPXGQP669GNMEDM0XV87B2TX "Get your own page views count badge on badges.toozhao.com") -->
