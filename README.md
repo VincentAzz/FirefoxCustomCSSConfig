@@ -108,6 +108,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
   |行数|属性名|单位|用途|
   |-|-|-|-|
   |38|border-radius|px|地址栏圆角|
+  <br>
 
 - 去掉窗口最小化按钮左侧的冗余区域(这个区域可以用来拖动窗口，如果不喜欢可以去掉或更改其宽度)：
 
@@ -117,7 +118,8 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
     --uc-titlebar-drag-space: 0px !important;
   }
   ```
-
+  <br>
+  ...还有很多，用到再补🫡
 <br>
 
 ## 🌎 有用的链接
@@ -126,3 +128,5 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 [FirefoxCSS Store](https://firefoxcss-store.github.io/)：Firefox的userChromeCSS主题集合，你可以在这里找到很多优秀的主题来尝试
 
 [Reddit r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/s-store.github.io/)：Reddit上的FirefoxCSS论坛
+
+[Browser Toolbox](https://www.reddit.com/r/FirefoxCSS/s-store.github.io/)：Firefox浏览器的官方调试工具，可以方便的探测浏览器自身的UI元素和CSS样式
