@@ -1,5 +1,10 @@
 # FirefoxCustomCSSConfig
 
+<br>
+
+[![页面访问量](https://badges.toozhao.com/badges/01HPXGQP669GNMEDM0XV87B2TX/green.svg)](https://badges.toozhao.com/stats/01HPXGQP669GNMEDM0XV87B2TX "Get your own page views count badge on badges.toozhao.com")
+
+
 ## 🤔 这是什么
 厌倦了Firefox的传统主题和默认界面？
 
@@ -142,4 +147,4 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 ---
 <br>
 
-[![Page Views Count](https://badges.toozhao.com/badges/01HPXGQP669GNMEDM0XV87B2TX/green.svg)](https://badges.toozhao.com/stats/01HPXGQP669GNMEDM0XV87B2TX "Get your own page views count badge on badges.toozhao.com")
+<!-- [![页面访问量](https://badges.toozhao.com/badges/01HPXGQP669GNMEDM0XV87B2TX/green.svg)](https://badges.toozhao.com/stats/01HPXGQP669GNMEDM0XV87B2TX "Get your own page views count badge on badges.toozhao.com") -->
