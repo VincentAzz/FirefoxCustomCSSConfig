@@ -7,6 +7,9 @@
 
 基于 [EdgeFrFox UserChrome Theme](https://github.com/bmFtZQ/edge-frfox/) 和 [Sidebery](https://addons.mozilla.org/firefox/addon/sidebery/) 进行修改
 
+使用userChrome类型的主题不会影响你的用户数据
+
+截图预览:
 
 ![alt text](image-4.png)
 ![alt text](01.png)
