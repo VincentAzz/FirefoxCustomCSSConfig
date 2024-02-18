@@ -1,0 +1,13 @@
+#root.root {--ctx-menu-fg: #ccc;}
+#root.root {--toolbar-bg: #191a23;}
+#root.root {--frame-el-overlay-selected-border: #1f6feb;}
+#root.root {--toolbar-el-overlay-selected-border: #1f6feb;}
+#root.root {--frame-bg: #191a23;}
+
+
+#root.root {--tabs-height: 32px;}
+#root.root {--general-border-radius: 7px;}
+#root.root {--general-margin: 5px;}
+
+/* VSCode Modern Dark #181818 #1f1f1f #282828*/
+/* Linear Blue #191a23 */
