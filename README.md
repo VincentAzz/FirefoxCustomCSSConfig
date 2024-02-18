@@ -59,10 +59,13 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 3. 点击本页上方的Code按钮，选择Download ZIP下载仓库中的全部文件，或者以你喜欢的方式克隆仓库到本地
 4. 解压ZIP，复制其中的chrome文件夹(整个文件夹)和user.js文件到打开的Firefox配置文件夹中
 5. 关闭全部Firefox窗口，重新打开Firefox，这时部分主题应该已经被正确启用
-6. 打开about:config，对如下配置项进行启用
-- 启用配置项: 键入配置项，选择布尔，点击右侧加号即可
+6. 打开about:config，对如下配置项进行新建并启用
+- 新建并启用配置项: 键入完整的配置项名称，选择布尔，点击右侧加号即可
 - 禁用配置项: 点击切换按钮，将配置项切换到false，或点击删除按钮，删除配置项
+- 仅在安装了Sidebery垂直标签页后，启用uc.tweak.hide-tabs-bar隐藏横向标签页才会生效。通过定制工具栏，将侧栏按钮摆放在工具栏上，可以实现启用/禁用垂直标签页(禁用时使用默认的横向标签页)
 - 如果你想了解每个配置项的详细含义，或启用本主题中未使用的某些配置项，请参考 [EdgeFrFox UserChrome Theme Tweaks](https://github.com/bmFtZQ/edge-frfox?tab=readme-ov-file#tweaks)
+
+<br>
 
   |需启用的配置项|布尔值|用途|
   |-|-|-|
@@ -74,10 +77,11 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
   |uc.tweak.rounded-corners                |true|启用圆角|
   |uc.tweak.show-tab-close-button-on-hover |true|仅在鼠标移动到标签页上方时才显示关闭按钮|
 
+<br>
+
 ![alt text](image-2.png)
 
-- 仅在安装了Sidebery垂直标签页后，启用uc.tweak.hide-tabs-bar隐藏横向标签页才会生效。通过定制工具栏，将侧栏按钮摆放在工具栏上，可以实现启用/禁用垂直标签页(禁用时使用默认的横向标签页)
-
+<br>
 
 7. 用文本编辑器打开sidebery.css，复制全部内容到垂直标签页Sidebery的设置-样式编辑器中右侧的文本框中
 ![alt text](image-1.png)
