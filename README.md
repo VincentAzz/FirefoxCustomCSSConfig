@@ -20,7 +20,7 @@
 ## 🏷️ 前置版本
 Firefox 120+ 
 
-或除Floorp外任何基于Firefox 120+的浏览器
+或 除 Floorp 外任何基于 Firefox 120+ 的浏览器
 
 (Floorp已经使用了内建样式的userChrome，会导致样式混乱冲突)
 
@@ -74,7 +74,11 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
   |uc.tweak.rounded-corners                |true|启用圆角|
   |uc.tweak.show-tab-close-button-on-hover |true|仅在鼠标移动到标签页上方时才显示关闭按钮|
 
+![alt text](image-2.png)
+
 - 仅在安装了Sidebery垂直标签页后，启用uc.tweak.hide-tabs-bar隐藏横向标签页才会生效。通过定制工具栏，将侧栏按钮摆放在工具栏上，可以实现启用/禁用垂直标签页(禁用时使用默认的横向标签页)
+
+
 7. 用文本编辑器打开sidebery.css，复制全部内容到垂直标签页Sidebery的设置-样式编辑器中右侧的文本框中
 ![alt text](image-1.png)
 
