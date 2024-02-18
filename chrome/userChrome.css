@@ -1,0 +1,37 @@
+@import url("icons/icons.css");
+@import url("toolbar/tabbar.css");
+@import url("toolbar/navbar.css");
+@import url("toolbar/personalbar.css");
+@import url("toolbar/findbar.css");
+@import url("toolbar/urlbar.css");
+@import url("global/colors.css");
+@import url("global/popup.css");
+@import url("global/browser.css");
+@import url("global/tree.css");
+
+@import url("global/tweaks.css");
+@import url("tweaks/hide-tabs-bar.css") (-moz-bool-pref: "uc.tweak.hide-tabs-bar");
+@import url("custom.css");
+
+/* ------------------------- */
+/* Sidebery */
+/* 隐藏侧栏的顶栏 */
+/* https://github.com/HelgiMagic/FirefoxCSS/blob/main/userChrome.css */
+/* https://www.reddit.com/r/FirefoxCSS/comments/197fgeo/firefox_sidebery_arclike_setup/ */
+
+#sidebar-header {
+  display: none;
+}
+
+/* #sidebar-splitter {
+  display: none;
+} 
+
+#sidebar-box {
+  min-width: 300px !important;
+  max-width: 300px !important;
+} */
+
+/* :root {
+  --uc-titlebar-drag-space: 0px !important;
+} */
