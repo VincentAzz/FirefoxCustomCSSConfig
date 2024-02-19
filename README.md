@@ -119,6 +119,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
   |Margin|px|按钮及标签页之间的间隔|
   |Toolbar background|HEX色值|Sidebery工具栏背景色|
   |Frame background|HEX色值|整个Sidebery的背景色|
+
 <br><br>
 
 #### 窗口四周边距、侧栏和页面四周的圆角：chrome/global/browser.css
@@ -127,6 +128,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
   |-|-|-|-|
   |46|--uc-tweak-rounded-corners-padding|px|窗口四周边距|
   |47|--uc-tweak-rounded-corners-radius|px|侧栏、页面四周圆角|
+
 <br><br>
 
 #### URL地址栏圆角：chrome/toolbar/urlbar.css
@@ -134,6 +136,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
   |行数|属性名|单位|用途|
   |-|-|-|-|
   |38|border-radius|px|地址栏圆角|
+
 <br><br>
 
 #### 去掉窗口最小化按钮左侧的冗余区域(这个区域可以用来拖动窗口，如果不喜欢可以去掉或更改其宽度)：
@@ -144,6 +147,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
     --uc-titlebar-drag-space: 0px !important;
   }
   ```
+
 <br><br>
 
 #### 隐藏地址栏上的插件标识：
@@ -161,9 +165,11 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
       background: none !important;
     }
   ```
+
 <br>
 
   ...还有很多，用到再补🫡
+
 <br><br>
 
 ## 🌎 有用的链接
