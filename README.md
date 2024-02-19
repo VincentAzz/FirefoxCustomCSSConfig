@@ -170,8 +170,8 @@ chrome/icon目录中含有3种样式的文件夹图标，默认使用浅色线�
 
 |默认使用|文件名|样式|图标|
 |-|-|-|-|
-|✅|folder.svg (folderLightOutline.svg)|浅色线条(适合暗色主题)|![alt text](chrome/icons/folder.svg)|
-||folderDarkOutline.svg|暗色线条(适合浅色主题)|![alt text](chrome/icons/folderDarkOutline.svg)|
+|✅|folder.svg (folderLightOutline.svg)|浅色线条 (适合暗色主题)|![alt text](chrome/icons/folder.svg)|
+||folderDarkOutline.svg|暗色线条 (适合浅色主题)|![alt text](chrome/icons/folderDarkOutline.svg)|
 ||folderFluentYellow.svg|FluentUI 黄色|![alt text](chrome/icons/folderFluentYellow.svg)|
 
 <br>
