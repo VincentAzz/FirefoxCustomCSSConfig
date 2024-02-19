@@ -165,6 +165,19 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 
 <br>
 
+#### 书签栏文件夹颜色调整：
+chrome/icon目录中含有3种样式的文件夹图标，默认使用浅色线条(适合暗色主题)图标
+
+|默认使用|文件名|样式|图标|
+|-|-|-|-|
+|✅|folder.svg (folderLightOutline.svg)|浅色线条(适合暗色主题)|![alt text](chrome/icons/folder.svg)|
+||folderDarkOutline.svg|暗色线条(适合浅色主题)|![alt text](chrome/icons/folderDarkOutline.svg)|
+||folderFluentYellow.svg|FluentUI 黄色|![alt text](chrome/icons/folderFluentYellow.svg)|
+
+<br>
+如需更改文件夹样式以适配主题，请将原有的folder.svg更改为其他名称，并将要启用的文件名称更改为folder.svg
+
+<br><br>
   ...还有很多，用到再补🫡
 
 <br><br>
