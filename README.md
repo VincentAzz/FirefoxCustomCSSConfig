@@ -5,11 +5,11 @@
 ## 🤔 这是什么
 厌倦了Firefox的传统主题和默认界面？
 
-这是一个使用[userChrome.css](https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization)对 '[稳定版Firefox](https://www.mozilla.org/en-US/firefox/new/)' 进行高度自定义的主题
+这是一个使用 [userChrome.css](https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization) 对 Firefox 进行高度自定义的主题
 
 基于 [EdgeFrFox UserChrome Theme](https://github.com/bmFtZQ/edge-frfox/) 和 [Sidebery](https://addons.mozilla.org/firefox/addon/sidebery/) 进行修改
 
-使用userChrome类型的主题不会影响你的用户数据
+使用 userChrome 类型的主题不会影响你的用户数据
 
 截图预览:
 
@@ -25,11 +25,11 @@
 
 Firefox 120+ 稳定版
 
-或 除 Floorp 外任何基于 Firefox 120+ 稳定版的浏览器 - Floorp使用的内建样式的userChrome会导致冲突混乱
+或 除 Floorp 外任何基于 Firefox 120+ Fork 的浏览器 - Floorp使用的内建样式的userChrome会导致冲突混乱
 
 <br>
 
-🚨 上述版本在Linux和macOS下未经测试，但理论通用
+🚨 上述版本在Linux和macOS下未经测试，但理论通用，请自行测试
 
 🚨 Firefox Beta/Nightly 下可能会导致意想不到的问题
 
