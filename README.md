@@ -55,7 +55,7 @@ Firefox 120+ 稳定版
 chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行了一些改动
 - 增加圆角和边缘padding，修改按钮及URL地址栏圆角
 - 调整侧栏样式以适配Sidebery垂直标签页，去除Firefox原有侧栏顶部的菜单栏
-- 修改书签栏文件夹样式，由原有的FluentUI黄色文件夹调整为单色
+- 增加书签栏文件夹样式
 - 一些字体大小和图标按钮间距调整
 
 ### Sidebery的样式配置项
