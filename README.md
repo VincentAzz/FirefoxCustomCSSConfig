@@ -23,16 +23,16 @@
 
 仅在Windows下经过测试
 
-Firefox 120-122 稳定版
+Firefox 120+ 稳定版
 
-或 除 Floorp 外任何基于 Firefox 120-122 的浏览器 - Floorp使用的内建样式的userChrome会导致冲突混乱
+或 除 Floorp 外任何基于 Firefox 120+ 稳定版的浏览器 - Floorp使用的内建样式的userChrome会导致冲突混乱
 
 <br>
 
 🚨 上述版本在Linux和macOS下未经测试，但理论通用
 
-🚨 目前 Firefox 123+ 的 Beta/Nightly 下可能会导致意想不到的问题，请谨慎使用
-- 已知问题：隐藏水平标签页时，窗口控制按钮 (最小化 最大化 关闭) 可能会失效
+🚨 Firefox Beta/Nightly 下可能会导致意想不到的问题
+
 
 <br><br>
 
