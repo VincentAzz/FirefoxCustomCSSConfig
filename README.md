@@ -1,6 +1,6 @@
 # FirefoxCustomCSSConfig
 
-<br>
+
 
 [![页面访问量](https://badges.toozhao.com/badges/01HPXGQP669GNMEDM0XV87B2TX/green.svg)](https://badges.toozhao.com/stats/01HPXGQP669GNMEDM0XV87B2TX "Get your own page views count badge on badges.toozhao.com")
 
@@ -20,7 +20,7 @@
 ![alt text](01.png)
 ![alt text](02.png)
 
-<br>
+<br><br>
 
 ## 🏷️ 前置版本
 
@@ -37,9 +37,7 @@ Firefox 120-122 稳定版
 🚨 目前 Firefox 123+ 的 Beta/Nightly 下可能会导致意想不到的问题，请谨慎使用
 - 已知问题：隐藏水平标签页时，窗口控制按钮 (最小化 最大化 关闭) 可能会失效
 
-
-
-<br>
+<br><br>
 
 ## 🛠️ 所需工具
 - 插件
@@ -53,7 +51,7 @@ Firefox 120-122 稳定版
 - 其他
   - 文本编辑器，例如VSCode，方便你用来改动CSS样式，如果你只想使用记事本也没关系
 
-<br>
+<br><br>
 
 ## 📦 包含哪些内容
 ### 对EdgeFrFox Theme的改动
@@ -66,7 +64,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 ### Sidebery的样式配置项
   - sidebery.css是Sidebery的CSS样式配置项
 
-<br>
+<br><br>
 
 ## 📖 如何使用
 1. 安装上述所需工具中你想要的插件、工具和主题。
@@ -90,10 +88,9 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
   |uc.tweak.rounded-corners                |true|启用圆角|
   |uc.tweak.show-tab-close-button-on-hover |true|仅在鼠标移动到标签页上方时才显示关闭按钮|
 
+  <br>
 
-<br>
-
-![alt text](image-2.png)
+  ![alt text](image-2.png)
 
 <br>
 
@@ -102,19 +99,19 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 
 ### 🎉 现在，主题配置已经完成，效果应该和截图中的基本一致
 
-<br>
+<br><br>
 
 ## 📖 如何禁用
 1. 打开Firefox配置文件夹
 2. 删掉配置文件夹中的chrome目录和user.js
 3. 重启Firefox即可还原
 
-<br>
+<br><br>
 
 ## ⚗️ 样式修改
 如果你不喜欢我的主题样式，或者喜欢折腾，你也可以动手修改。下面是一些可能涉及到的样式表的位置
 
-- Sidebery部分的样式：Sidebery设置-样式编辑器-侧边栏-General
+#### Sidebery部分的样式：Sidebery设置-样式编辑器-侧边栏-General
 
   |属性名|单位|用途|
   |-|-|-|
@@ -122,24 +119,24 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
   |Margin|px|按钮及标签页之间的间隔|
   |Toolbar background|HEX色值|Sidebery工具栏背景色|
   |Frame background|HEX色值|整个Sidebery的背景色|
-<br>
+<br><br>
 
-- 窗口四周边距、侧栏和页面四周的圆角：chrome/global/browser.css
+#### 窗口四周边距、侧栏和页面四周的圆角：chrome/global/browser.css
 
   |行数|属性名|单位|用途|
   |-|-|-|-|
   |46|--uc-tweak-rounded-corners-padding|px|窗口四周边距|
   |47|--uc-tweak-rounded-corners-radius|px|侧栏、页面四周圆角|
-<br>
+<br><br>
 
-- URL地址栏圆角：chrome/toolbar/urlbar.css
+#### URL地址栏圆角：chrome/toolbar/urlbar.css
 
   |行数|属性名|单位|用途|
   |-|-|-|-|
   |38|border-radius|px|地址栏圆角|
-  <br>
+<br><br>
 
-- 去掉窗口最小化按钮左侧的冗余区域(这个区域可以用来拖动窗口，如果不喜欢可以去掉或更改其宽度)：
+#### 去掉窗口最小化按钮左侧的冗余区域(这个区域可以用来拖动窗口，如果不喜欢可以去掉或更改其宽度)：
 
   在chrome/userChrome.css中添加
   ```
@@ -147,9 +144,27 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
     --uc-titlebar-drag-space: 0px !important;
   }
   ```
-  <br>
-  ...还有很多，用到再补🫡
+<br><br>
+
+#### 隐藏地址栏上的插件标识：
+  |![alt text](image-5.png)|→|![alt text](image-6.png)|
+  |-|-|-|
+
+  在chrome/userChrome.css中添加
+  ```
+    /* 隐藏urlbar上的插件标识符 */
+    #identity-box.extensionPage #identity-icon-label {
+      display: none !important;
+    }
+
+    #identity-icon-box {
+      background: none !important;
+    }
+  ```
 <br>
+
+  ...还有很多，用到再补🫡
+<br><br>
 
 ## 🌎 有用的链接
 [EdgeFrFox UserChrome Theme](https://github.com/bmFtZQ/edge-frfox/)
