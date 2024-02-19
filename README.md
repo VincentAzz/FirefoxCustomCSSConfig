@@ -106,9 +106,10 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 <br><br>
 
 ## ⚗️ 样式修改
-如果你不喜欢我的主题样式，或者喜欢折腾，你也可以动手修改。下面是一些可能涉及到的样式表的位置
+如果你不喜欢我的主题样式，或者喜欢折腾，你也可以动手修改。下面是一些可能涉及到的样式调整的位置
 
-#### Sidebery部分的样式：Sidebery设置-样式编辑器-侧边栏-General
+#### 1. Sidebery部分的样式
+Sidebery设置-样式编辑器-侧边栏-General
 
   |属性名|单位|用途|
   |-|-|-|
@@ -119,7 +120,8 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 
 <br>
 
-#### 窗口四周边距、侧栏和页面四周的圆角：chrome/global/browser.css
+#### 2. 窗口四周边距、侧栏和页面四周的圆角
+chrome/global/browser.css
 
   |行数|属性名|单位|用途|
   |-|-|-|-|
@@ -128,7 +130,8 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 
 <br>
 
-#### URL地址栏圆角：chrome/toolbar/urlbar.css
+#### 3. URL地址栏圆角
+chrome/toolbar/urlbar.css
 
   |行数|属性名|单位|用途|
   |-|-|-|-|
@@ -136,7 +139,9 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 
 <br>
 
-#### 去掉窗口最小化按钮左侧的冗余区域(这个区域可以用来拖动窗口，如果不喜欢可以去掉或更改其宽度)：
+#### 4. 去掉窗口最小化按钮左侧的冗余区域
+
+这个区域可以用来拖动窗口，如果不喜欢可以去掉或更改其宽度
 
   在chrome/userChrome.css中添加
   ```
@@ -147,7 +152,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 
 <br>
 
-#### 隐藏地址栏上的插件标识：
+#### 5. 隐藏地址栏上的插件标识
   |![alt text](image-5.png)|→|![alt text](image-6.png)|
   |-|-|-|
 
@@ -165,7 +170,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 
 <br>
 
-#### 书签栏文件夹颜色调整：
+#### 6. 书签栏文件夹颜色调整
 chrome/icon目录中含有3种样式的文件夹图标，默认使用浅色线条(适合暗色主题)图标
 
 |默认使用|文件名|样式|图标|
@@ -174,7 +179,6 @@ chrome/icon目录中含有3种样式的文件夹图标，默认使用浅色线�
 ||folderDarkOutline.svg|暗色线条 (适合浅色主题)|![alt text](chrome/icons/folderDarkOutline.svg)|
 ||folderFluentYellow.svg|FluentUI 黄色|![alt text](chrome/icons/folderFluentYellow.svg)|
 
-<br>
 如需更改文件夹样式以适配主题，请将原有的folder.svg更改为其他名称，并将要启用的文件名称更改为folder.svg
 
 <br><br>
@@ -189,7 +193,7 @@ chrome/icon目录中含有3种样式的文件夹图标，默认使用浅色线�
 
 [Reddit r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/s-store.github.io/)：Reddit上的FirefoxCSS论坛
 
-[Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html)：Firefox浏览器的官方调试工具，可以方便的探测浏览器自身的UI元素和CSS样式
+[Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html)：Firefox浏览器调试工具，可以方便的探测浏览器自身的UI元素和CSS样式
 
 ---
 <br>
