@@ -195,5 +195,17 @@ chrome/icon目录中含有3种样式的文件夹图标，默认使用浅色线�
 
 [Browser Toolbox](https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html)：Firefox浏览器调试工具，可以方便的探测浏览器自身的UI元素和CSS样式
 
+<br><br>
+
+## 🥰 其他信息
+
+  截图中Firefox所使用的字体和图标：
+
+  - 网页字体：OneUI Sans From OneUI 6
+  - 系统字体：[更纱黑体SC UI](https://github.com/be5invis/Sarasa-Gothic)
+  - 代码等宽字体：[Jetbrains Mono](https://www.jetbrains.com/lp/mono/)
+  - 图标库：[Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons)
+  
+<br><br>
 ---
 <br>
