@@ -108,7 +108,7 @@ chrome目录和user.js是EdgeFrFox Theme的核心文件，在此基础上进行�
 ## ⚗️ 样式修改
 如果你不喜欢我的主题样式，或者喜欢折腾，你也可以动手修改。下面是一些可能涉及到的样式调整的位置
 
-#### 1. Sidebery部分的样式
+#### 1. Sidebery部分关键样式
 Sidebery设置-样式编辑器-侧边栏-General
 
   |属性名|单位|用途|
@@ -135,7 +135,7 @@ chrome/toolbar/urlbar.css
 
   |行数|属性名|单位|用途|
   |-|-|-|-|
-  |38|border-radius|px|地址栏圆角|
+  |51|border-radius|px|地址栏圆角|
 
 <br>
 
