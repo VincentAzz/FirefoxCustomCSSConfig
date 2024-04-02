@@ -25,11 +25,11 @@
 
 Firefox 120+ 稳定版
 
-或 除 Floorp 外任何基于 Firefox 120+ Fork 的浏览器 - Floorp使用的内建样式的userChrome会导致冲突混乱
+或 除 Floorp 外任何基于 Firefox 120+ Fork 的浏览器 - Floorp使用的内建样式的userChrome会导致冲突
 
 <br>
 
-🚨 上述版本在Linux和macOS下未经测试，但理论通用，请自行测试
+🚨 上述版本在Linux和macOS下未经充分测试
 
 🚨 Firefox Beta/Nightly 下可能会导致意想不到的问题
 
