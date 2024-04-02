@@ -691,6 +691,7 @@ panelview .toolbarbutton-1,
 
   menulist > menupopup > menuitem:is([checked="true"], [selected="true"])::before,
   menupopup > menuitem::before,
+  menupopup > menu::before,
   menupopup > menuitem::after {
     display: none !important;
   }
@@ -805,5 +806,24 @@ dialog {
   & input:where([type="email"], [type="tel"], [type="text"], [type="password"], [type="url"], [type="number"]):focus {
     outline: 2px solid var(--in-content-box-border-color) !important;
     outline-offset: -2px !important;
+  }
+}
+
+
+/* FF123+ tab preview pop-up.
+ * CSS reference: https://searchfox.org/mozilla-central/source/browser/components/tabpreview/tabpreview.css
+ * Requires `browser.tabs.cardPreview.enabled` set to `true` */
+ .tab-preview-container {
+  background-color: var(--arrowpanel-background) !important;
+  color: var(--arrowpanel-color) !important;
+  border: 0.5px solid var(--panel-separator-color) !important;
+  border-radius: 8.5px !important;
+
+  /* Place thumbnail at the top of the tooltip. */
+  display: flex !important;
+  flex-direction: column-reverse !important;
+
+  & .tab-preview-uri {
+    color: var(--panel-description-color) !important;
   }
 }
